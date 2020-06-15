@@ -40,4 +40,4 @@ for (i in seq_len(n_rows)) {
   df$ic50[i] <- ic50
 }
 
-readr::write_csv(df, "ic50s_per_haplotype.csv")
+readr::write_csv(df, "ic50s.csv")

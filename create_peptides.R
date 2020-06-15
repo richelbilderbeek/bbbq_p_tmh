@@ -11,7 +11,7 @@ n_aas <- 9
 n_peptides <- 1000 # per haplotype
 
 if (mhcnuggetsr::is_on_ci()) {
-  n_peptides <- 2
+  n_peptides <- 10
 }
 
 t <- tibble::tibble(
