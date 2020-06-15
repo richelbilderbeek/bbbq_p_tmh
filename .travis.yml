@@ -1,0 +1,20 @@
+language: r
+dist: bionic
+cache: packages
+
+r_github_packages:
+  - jtextor/epitope-prediction
+  - richelbilderbeek/mhcnuggetsr
+  - richelbilderbeek/pureseqtmr
+  - richelbilderbeek/bbbq
+
+
+before_script:
+  - sudo apt install python3-pip
+  - Rscript -e "mhcnuggetsr::install_mhcnuggets()"
+
+after_script:
+  - make clean
+  - make data
+  - make
+
