@@ -12,6 +12,7 @@ r_github_packages:
 before_script:
   - sudo apt install python3-pip
   - Rscript -e "mhcnuggetsr::install_mhcnuggets()"
+  - Rscript -e "pureseqtmr::install_pureseqtm()"
 
 after_script:
   - make clean
