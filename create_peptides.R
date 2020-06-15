@@ -8,7 +8,7 @@ n_aas <- 9
 # 2: 1.5 minutes
 # 100: 4 hours
 # 1000: ?40 hours
-n_peptides <- 2 # per haplotype
+n_peptides <- 100 # per haplotype
 
 if (mhcnuggetsr::is_on_ci()) {
   n_peptides <- 2
