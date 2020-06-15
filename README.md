@@ -1,5 +1,10 @@
 # bbbq_random_peptides
 
+Branch   |[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)                                                                             
+---------|------------------------------------------------------------------------------------------------------------------------------------------
+`master` |[![Build Status](https://travis-ci.org/richelbilderbeek/bbbq_random_peptides.svg?branch=master)](https://travis-ci.org/richelbilderbeek/bbbq_random_peptides) 
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/bbbq_random_peptides.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/bbbq_random_peptides)
+
 BBBQ: random peptides
 
 ## Goal
