@@ -12,7 +12,8 @@
 #SBATCH --mem=20G
 #SBATCH --job-name=bbbq_random_peptides
 #SBATCH --output=bbbq_random_peptides.log
-module load R Python/3.8.2-GCCcore-9.3.0 ImageMagick X11 
+module load R Python/3.8.2-GCCcore-9.3.0
 
-make
+make data
+
 
