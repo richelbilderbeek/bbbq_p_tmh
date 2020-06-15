@@ -22,8 +22,8 @@ BBBQ: random peptides
     * [x] script: `is_tmh.R`
     * [x] is TMH: `is_tmh.csv`, column names: `peptide`, `is_tmh`
  * Per peptide, per haplotype, determine:
-    * [x] script: `ic50.R`
-    * [x] IC50: `ic50.csv`, column names: `peptide`, `haplotype`, `ic50`
+    * [x] script: `ic50s.R`
+    * [x] IC50: `ic50s.csv`, column names: `peptide`, `haplotype`, `ic50`
 
 ## Plot
 
@@ -34,6 +34,6 @@ BBBQ: random peptides
     * [x] script filename: `plot_ic50s_per_haplotype.R`
     * [x] figure filename: `ic50s_per_haplotype.png`
  * IC50 per haplotype, separated by being TMH: 
-    * [ ] script filename: `plot_ic50s_per_haplotype_per_tmh.R`
-    * [ ] figure filename: `ic50s_per_haplotype_per_tmh.png`
+    * [x] script filename: `plot_ic50s_per_haplotype_per_tmh.R`
+    * [x] figure filename: `ic50s_per_haplotype_per_tmh.png`
 

@@ -23,7 +23,7 @@ ic50s_per_haplotype.png: plot_ic50s_per_haplotype.R
 ic50s_per_haplotype_per_tmh.png: plot_ic50s_per_haplotype_per_tmh.R
 	Rscript plot_ic50s_per_haplotype_per_tmh.R
 
-data: peptides.csv is_tmh.csv ic50.csv
+data: peptides.csv is_tmh.csv ic50s.csv
 
 peptides.csv: create_peptides.R
 	Rscript create_peptides.R
@@ -31,8 +31,8 @@ peptides.csv: create_peptides.R
 is_tmh.csv: is_tmh.R
 	Rscript is_tmh.R
 
-ic50.csv: ic50.R
-	Rscript ic50.R
+ic50s.csv: ic50s.R
+	Rscript ic50s.R
 
 zip:
 	zip bbbq_random_peptides.zip *.csv *.png *.log *.R Makefile *.sh
