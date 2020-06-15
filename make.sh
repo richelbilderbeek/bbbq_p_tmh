@@ -10,8 +10,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --ntasks=1
 #SBATCH --mem=20G
-#SBATCH --job-name=ic50s_per_haplotype
-#SBATCH --output=ic50s_per_haplotype.log
+#SBATCH --job-name=bbbq_random_peptides
+#SBATCH --output=bbbq_random_peptides.log
 module load R Python/3.8.2-GCCcore-9.3.0 ImageMagick X11 
 
 make
