@@ -9,6 +9,5 @@
 ^\.github$
 ^scripts$
 ^\.appveyor.yml$
-^*\.R$
 ^make.sh$
 ^Makefile$
