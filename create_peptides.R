@@ -3,10 +3,10 @@
 library(bbbq)
 suppressMessages(library(dplyr))
 
-peptide_sizes <- seq(20, 50, by = 10) # in amino acids
+peptide_sizes <- seq(20, 50) # in amino acids
 
-# 10: some secsonds
-n_peptides <- 100 # per size
+# Predict: 450 mins = 8 hours
+n_peptides <- 1000 # per size
 
 if (mhcnuggetsr::is_on_ci()) {
   n_peptides <- 2
