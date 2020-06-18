@@ -3,13 +3,8 @@ Rscript create_peptides.R
 
 ###############################################################################
 Peregrine Cluster
-<<<<<<< HEAD
 Job 12197726 for user 'p230198'
 Finished at: Wed Jun 17 18:14:37 CEST 2020
-=======
-Job 12197267 for user 'p230198'
-Finished at: Wed Jun 17 11:39:37 CEST 2020
->>>>>>> 4f4c2434f090df825f0d9c220a265174cc432ee9
 
 Job details:
 ============
@@ -17,7 +12,6 @@ Job details:
 Name                : bbbq_p_tmh
 User                : p230198
 Partition           : regular
-<<<<<<< HEAD
 Nodes               : pg-node177
 Cores               : 1
 State               : COMPLETED
@@ -33,23 +27,6 @@ Mem reserved        : 20G/node
 Max Mem used        : 114.64M (pg-node177)
 Max Disk Write      : 112.64K (pg-node177)
 Max Disk Read       : 2.31M (pg-node177)
-=======
-Nodes               : pg-node185
-Cores               : 1
-State               : COMPLETED
-Submit              : 2020-06-17T11:38:35
-Start               : 2020-06-17T11:38:54
-End                 : 2020-06-17T11:39:36
-Reserved walltime   : 10-00:00:00
-Used walltime       :    00:00:42
-Used CPU time       :    00:00:32 (efficiency: 77.23%)
-% User (Computation): 43.56%
-% System (I/O)      : 56.44%
-Mem reserved        : 20G/node
-Max Mem used        : 92.22M (pg-node185)
-Max Disk Write      : 112.64K (pg-node185)
-Max Disk Read       : 2.31M (pg-node185)
->>>>>>> 4f4c2434f090df825f0d9c220a265174cc432ee9
 
 
 Acknowledgements:
