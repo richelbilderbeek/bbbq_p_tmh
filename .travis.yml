@@ -5,10 +5,19 @@ cache: packages
 
 r_github_packages:
   - jtextor/epitope-prediction
+  - richelbilderbeek/peregrine
   - richelbilderbeek/mhcnpreds
+  - richelbilderbeek/tmhmm
   - richelbilderbeek/pureseqtmr
+  - richelbilderbeek/epitope-prediction
+  - richelbilderbeek/epiprepreds
+  - richelbilderbeek/netmhc2pan
+  - richelbilderbeek/nmhc2ppreds
   - richelbilderbeek/bbbq
 
+rror: Failed to install 'bbbq' from GitHub:
+
+  (converted from warning) packages ‘tmhmm’, ‘nmhc2ppreds’, ‘netmhc2pan’, ‘msa’, ‘epiprepreds’, ‘Biostrings’ are not available (for R version 4.0.2)
 
 before_script:
   - sudo apt install python3-pip
@@ -21,8 +30,8 @@ after_script:
   - ls *.csv
 
 after_success:
-  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+  - wget https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf
 
 after_failure:
-  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+  - wget https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf
 
