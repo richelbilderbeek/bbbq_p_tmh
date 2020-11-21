@@ -7,11 +7,8 @@ r_github_packages:
   - jtextor/epitope-prediction
   - richelbilderbeek/peregrine
   - richelbilderbeek/mhcnpreds
-  - richelbilderbeek/tmhmm
-  - richelbilderbeek/pureseqtmr
   - richelbilderbeek/epitope-prediction
   - richelbilderbeek/epiprepreds
-  - richelbilderbeek/netmhc2pan
   - richelbilderbeek/nmhc2ppreds
   - richelbilderbeek/bbbq
 
